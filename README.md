@@ -6,6 +6,8 @@
 
 **如果你只有 3 分钟：**先读 [文章速览](#quick-summary) → [一页总览（可复制）](#one-page) → [落地评估清单](#appendix-checklist)。
 
+**想把长文拆成可分发短文：**见 [series/README.md](./series/README.md)（10 篇拆文骨架，篇篇可回链引流）。
+
 ## 目标读者
 
 - 企业架构师、平台架构师、技术管理者
