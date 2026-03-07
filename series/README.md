@@ -35,3 +35,6 @@
 - [15｜Agent 记忆研究速览：从“能记住”到“可治理”的长期记忆体系](./15-agent-memory-research-and-governance.md)
 - [16｜长链任务怎么做稳：Plan-then-Execute / Plan-and-Act 的论文脉络与工程落地](./16-plan-then-execute-and-long-horizon-planning.md)
 - [17｜怎么评估 LLM Agent：从“跑通 demo”到“可上线”的基准与指标体系](./17-evaluating-llm-agents-benchmarks-and-metrics.md)
+- [18｜多智能体协作研究速览：从“一个人干活”到“团队作业”的论文脉络](./18-multi-agent-collaboration-research-map.md)
+- [19｜多智能体“怎么聊才不翻车”：通信协议、冲突仲裁与收敛机制](./19-communication-protocols-and-arbitration-in-multi-agent.md)
+- [20｜多智能体落地的关键：从“对话协作”转向“工件协作”（ChatDev / MetaGPT 的启发）](./20-artifact-centric-multi-agent-software-engineering.md)
