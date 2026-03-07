@@ -38,3 +38,6 @@
 - [18｜多智能体协作研究速览：从“一个人干活”到“团队作业”的论文脉络](./18-multi-agent-collaboration-research-map.md)
 - [19｜多智能体“怎么聊才不翻车”：通信协议、冲突仲裁与收敛机制](./19-communication-protocols-and-arbitration-in-multi-agent.md)
 - [20｜多智能体落地的关键：从“对话协作”转向“工件协作”（ChatDev / MetaGPT 的启发）](./20-artifact-centric-multi-agent-software-engineering.md)
+- [21｜多智能体组织结构：层级管理（CEO→Manager→Worker）与动态分工的论文脉络](./21-hierarchical-multi-agent-org-design.md)
+- [22｜动态分工与集体决策：从“固定角色”到“选人用人”的多智能体方法论](./22-dynamic-role-assignment-and-collective-decision-making.md)
+- [23｜多智能体综述与架构模式：把“研究百花齐放”压缩成可执行的架构选型](./23-multi-agent-surveys-and-architecture-patterns.md)
