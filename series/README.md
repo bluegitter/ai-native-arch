@@ -32,3 +32,6 @@
 - [12｜企业应用架构从 SOA → 微服务 → Agent-Native：一条“执行力”增强的演进史](./12-soa-microservices-agent-native-history.md)
 - [13｜读 Every《Agent-native Architectures》：从“摩天楼软件”到“花园软件”——以及它对企业 Agent-Native 的启发](./13-every-to-agent-native-garden-vs-skyscraper.md)
 - [14｜LLM Agent 研究速览：把 arXiv 论文脉络映射到企业 Agent-Native 架构（读论文不迷路）](./14-arxiv-llm-agents-reading-map.md)
+- [15｜Agent 记忆研究速览：从“能记住”到“可治理”的长期记忆体系](./15-agent-memory-research-and-governance.md)
+- [16｜长链任务怎么做稳：Plan-then-Execute / Plan-and-Act 的论文脉络与工程落地](./16-plan-then-execute-and-long-horizon-planning.md)
+- [17｜怎么评估 LLM Agent：从“跑通 demo”到“可上线”的基准与指标体系](./17-evaluating-llm-agents-benchmarks-and-metrics.md)
