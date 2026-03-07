@@ -41,3 +41,4 @@
 - [21｜多智能体组织结构：层级管理（CEO→Manager→Worker）与动态分工的论文脉络](./21-hierarchical-multi-agent-org-design.md)
 - [22｜动态分工与集体决策：从“固定角色”到“选人用人”的多智能体方法论](./22-dynamic-role-assignment-and-collective-decision-making.md)
 - [23｜多智能体综述与架构模式：把“研究百花齐放”压缩成可执行的架构选型](./23-multi-agent-surveys-and-architecture-patterns.md)
+- [24｜企业落地指南：API-first / Schema-first 之上，能力网络（Capability Graph）怎么建？](./24-building-capability-network-api-schema-first.md)
