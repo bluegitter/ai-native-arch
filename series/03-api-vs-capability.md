@@ -1,7 +1,5 @@
 # 03｜API Catalog vs Capability Catalog：接口很多但业务仍然做不完
 
-> 适合发布：架构/平台圈层（收藏率高）
-
 很多企业“已经 API 化”但 Agent 仍然很难落地，根因常常是：
 
 - API 回答的是：**怎么调**
