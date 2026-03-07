@@ -43,3 +43,4 @@
 - [23｜多智能体综述与架构模式：把“研究百花齐放”压缩成可执行的架构选型](./23-multi-agent-surveys-and-architecture-patterns.md)
 - [24｜企业落地指南：API-first / Schema-first 之上，能力网络（Capability Graph）怎么建？](./24-building-capability-network-api-schema-first.md)
 - [25｜能力选择器（Resolver）怎么做：规则路由 + Embedding 检索 + 负反馈闭环（可落地实现）](./25-capability-resolver-routing-rule-embedding-feedback.md)
+- [26｜能力网络如何编排：DAG 执行器 + 补偿事务（Saga）让长链任务“可回滚、可恢复”（含示例代码）](./26-dag-orchestration-and-saga-compensation.md)
