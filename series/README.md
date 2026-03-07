@@ -30,3 +30,4 @@
 - [10｜安全与治理：上线前提不是更聪明，而是更可控](./10-governance.md)
 - [11｜FastGPT / Dify / 自主编排智能体：到底差在哪？（附：运行模式与进化阶段）](./11-fastgpt-dify-autonomous-agents.md)
 - [12｜企业应用架构从 SOA → 微服务 → Agent-Native：一条“执行力”增强的演进史](./12-soa-microservices-agent-native-history.md)
+- [13｜读 Every《Agent-native Architectures》：从“摩天楼软件”到“花园软件”——以及它对企业 Agent-Native 的启发](./13-every-to-agent-native-garden-vs-skyscraper.md)
