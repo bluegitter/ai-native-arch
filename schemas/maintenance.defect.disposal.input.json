@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/maintenance.defect.disposal.input.json",
+  "title": "MaintenanceDefectDisposalInput",
+  "type": "object",
+  "required": [
+    "alarmId",
+    "substationId",
+    "equipmentId",
+    "alarmType",
+    "riskLevel",
+    "requestedBy"
+  ],
+  "properties": {
+    "alarmId": {
+      "type": "string",
+      "pattern": "^ALM-[0-9]{8}-[0-9]{3}$"
+    },
+    "substationId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "equipmentId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "alarmType": {
+      "type": "string",
+      "minLength": 1
+    },
+    "riskLevel": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "urgent"]
+    },
+    "requestedBy": {
+      "type": "string",
+      "pattern": "^agent\\..+"
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 2000
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "uri"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "uri": { "type": "string", "format": "uri" }
+        },
+        "additionalProperties": false
+      },
+      "maxItems": 20
+    }
+  },
+  "additionalProperties": false
+}

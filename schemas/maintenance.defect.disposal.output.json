@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/maintenance.defect.disposal.output.json",
+  "title": "MaintenanceDefectDisposalOutput",
+  "type": "object",
+  "required": [
+    "runId",
+    "workOrderId",
+    "status",
+    "nextAction",
+    "traceId",
+    "updatedAt"
+  ],
+  "properties": {
+    "runId": {
+      "type": "string",
+      "pattern": "^RUN-[A-Za-z0-9_-]+$"
+    },
+    "workOrderId": {
+      "type": "string",
+      "pattern": "^WO-[0-9]+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "created",
+        "pending_dispatch_review",
+        "dispatched",
+        "waiting_shift_confirmation",
+        "completed",
+        "failed"
+      ]
+    },
+    "nextAction": {
+      "type": "string",
+      "enum": [
+        "wait_for_dispatcher",
+        "wait_for_shift_confirmation",
+        "escalate_to_specialist",
+        "close_case",
+        "manual_takeover"
+      ]
+    },
+    "traceId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "retryable": {
+      "type": "boolean"
+    },
+    "error": {
+      "type": "object",
+      "required": ["code", "message"],
+      "properties": {
+        "code": {
+          "type": "string",
+          "enum": [
+            "INVALID_ARGUMENT",
+            "UNAUTHORIZED",
+            "FORBIDDEN",
+            "NOT_FOUND",
+            "TRANSIENT",
+            "CONFLICT"
+          ]
+        },
+        "message": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
