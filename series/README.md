@@ -45,3 +45,4 @@
 - [25｜能力选择器（Resolver）怎么做：规则路由 + Embedding 检索 + 负反馈闭环（可落地实现）](./25-capability-resolver-routing-rule-embedding-feedback.md)
 - [26｜能力网络如何编排：DAG 执行器 + 补偿事务（Saga）让长链任务“可回滚、可恢复”（含示例代码）](./26-dag-orchestration-and-saga-compensation.md)
 - [27｜把编排跑到生产：检修工单“派发→执行→验收” 的状态持久化、断点恢复（Resume）与 OpenTelemetry 观测（含代码骨架）](./27-productionizing-runtime-persistence-resume-otel.md)
+- [28｜把 Runtime 做成可部署服务：Postgres 表结构（DDL）+ 事件回调 OpenAPI + 幂等与并发控制（Node/TS + Express + pg）](./28-runtime-postgres-openapi-events-idempotency.md)
